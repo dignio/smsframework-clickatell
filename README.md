@@ -131,7 +131,7 @@ Source: /smsframework_clickatell/receiver.py
 
 Message Receiver: /im
 ---------------------
-After a number is purchased, go to Receive Messages > Manage long numbers / short codes, and then click the ‘Edit’
+After a number is purchased, go to Receive Messages > Manage long numbers / short codes, and then click the `Edit`
 link of the two-way number which you would like to configure. Set "Reply Path" to "HTTP Get" | "HTTP Post",
 in the field - put the message receiver URL.
 

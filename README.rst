@@ -8,7 +8,7 @@ SMSframework Clickatell Provider
 `Clickatell <https://www.clickatell.com/>`__ Provider for
 `smsframework <https://pypi.python.org/pypi/smsframework/>`__.
 
-You need a “Developers’ Central” Clickatell account with an HTTP API set
+You need a "Developers' Central" Clickatell account with an HTTP API set
 up. From the API, you need: api_id, username, password.
 
 Installation
@@ -113,12 +113,12 @@ Message Receiver: /im
 ---------------------
 
 After a number is purchased, go to Receive Messages > Manage long
-numbers / short codes, and then click the ‘Edit’ link of the two-way
-number which you would like to configure. Set “Reply Path” to “HTTP Get”
-\| “HTTP Post”, in the field - put the message receiver URL.
+numbers / short codes, and then click the `Edit` link of the two-way
+number which you would like to configure. Set "Reply Path" to "HTTP Get"
+\| "HTTP Post", in the field - put the message receiver URL.
 
--  “Username & Password” is not supported
--  “Secondary callback” is up to you
+-  "Username & Password" is not supported
+-  "Secondary callback" is up to you
 
 Message Receiver URL: ``<provider-name>/im``
 
@@ -126,10 +126,10 @@ Status Receiver: /status
 ------------------------
 
 To start getting status reports from Clickatell, edit the HTTP API in
-the admin panel and click on “Enable your app to receive message
-delivery notifications”. In the field, put the receiver URL.
+the admin panel and click on "Enable your app to receive message
+delivery notifications". In the field, put the receiver URL.
 
--  Status receiver only supports “HTTP Get” and “HTTP Post” methods.
--  “basic HTTP Authentication” is not supported
+-  Status receiver only supports "HTTP Get" and "HTTP Post" methods.
+-  "basic HTTP Authentication" is not supported
 
 Status Receiver URL: ``<provider-name>/status``
